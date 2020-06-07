@@ -50,7 +50,7 @@ def scrap_videos_by_keyword(service, numPages, **kwargs):
             break
                 
 
-api_key = ""
+api_key = "" #Your API key.
 
 api_service_name = 'youtube'
 api_version = 'v3'
