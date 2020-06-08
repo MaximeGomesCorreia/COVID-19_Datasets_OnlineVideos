@@ -2,7 +2,7 @@
 COVID-19-related datasets made scraping OVPs (for the time being: YouTube), accompanied by the Python scripts used.
 
 ## About the Shared YouTube Dataset
-Because of the low API quota (10,000) available for free, the text file only contains 370 entries. Thus, it serves more as an example or sample of what you can get with the script than a comprehensive and operable dataset. 
+Because of the low API quota (10,000) available for free, the text file only contains 370 entries. Thus, it serves more as an example or sample of what you can get with the script than a comprehensive and operable dataset. Besides, please note that duplicates, which you can get if the result pages are modified between two requests, aren’t handled by the script and thereforce are likely to be present.
 
 ## Dataset Formating
 Here are the tags used to surround the scraped data:
