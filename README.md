@@ -1,12 +1,14 @@
 # COVID-19_Datasets_OnlineVideos
 COVID-19-related datasets made scraping OVPs (for the time being: YouTube), accompanied by the Python scripts used.
 
-## About the Shared YouTube Dataset
+## Regarding the Shared YouTube Dataset
 It is based on the result of a “covid19” query using [YouTube API](https://developers.google.com/youtube/v3/getting-started).
 
-Because of the low API quota (10,000) available for free, the text file only contains 370 entries. Thus, it serves more as an example or sample of what you can get with the script than a comprehensive and operable dataset. Besides, please note that duplicates, which you can get if the result pages are modified between two queries, aren’t handled by the script, and thereforce are likely to be present.
+Because of the low API quota (10,000) available for free, the text file only contains 370 entries. Thus, it serves more as an example or sample of what you can get with the script than a comprehensive and operable dataset. Besides, please note that duplicates, which you can get if the result pages are modified between two queries, aren’t handled by the script, and therefore are likely to be present.
 
-## Dataset Formating
+Feel free to improve the script as you want.
+
+## Dataset Formatting
 Here are the tags used to surround the scraped data:
 * `<ENTRY number> </ENTRY number>`: Surround all the other tags for each video.
 * `<TITLE> </TITLE>`: Surround the title of the video.
