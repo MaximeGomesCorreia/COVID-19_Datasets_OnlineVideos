@@ -1,5 +1,5 @@
 # COVID-19_Datasets_OnlineVideos
-COVID-19-related datasets made scraping OVPs (for the time being: YouTube), accompanied by the Python scripts used.
+COVID-19-related datasets made querying OVPs (for the time being: YouTube), accompanied by the Python scripts used.
 
 ## Regarding the Shared YouTube Dataset
 It is based on the result of a “covid19” query using [YouTube API](https://developers.google.com/youtube/v3/getting-started).
@@ -9,7 +9,7 @@ Because of the low API quota (10,000) available for free, the text file only con
 Feel free to improve the script as you want.
 
 ## Dataset Formatting
-Here are the tags used to surround the scraped data:
+Here are the tags used to surround the collected data:
 * `<ENTRY number> </ENTRY number>`: Surround all the other tags for each video.
 * `<TITLE> </TITLE>`: Surround the title of the video.
 * `<URL> </URL>`: Surround the URL of the video.
