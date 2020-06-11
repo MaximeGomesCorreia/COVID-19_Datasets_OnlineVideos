@@ -41,7 +41,7 @@ def scrap_videos_by_keyword(service, numPages, **kwargs):
                 outfile.write(f"<CHANNEL TITLE> {item['snippet']['channelTitle']} </CHANNEL TITLE>\n")
                 outfile.write(f"<CHANNEL URL> https://www.youtube.com/channel/{item['snippet']['channelId']} </CHANNEL URL>\n")
                 outfile.write(f"</ENTRY {numVideos}>\n")
-                print('%d. %s / %s' % (numVideos, video_title, video_id)) #Optionnal line used to see the progress of the scraping.
+                print('%d. %s / %s' % (numVideos, video_title, video_id)) #Optionnal line used to see the progress of the querying.
         if page < numPages and 'nextPageToken' in results: #Updates the page token before running a new query.
                 kwargs['pageToken'] = results['nextPageToken']
                 results = service.search().list(**kwargs).execute()
