@@ -13,7 +13,7 @@ Here are the tags used to surround the collected data:
 * `<ENTRY number> </ENTRY number>`: Surround all the other tags for each video.
 * `<TITLE> </TITLE>`: Surround the title of the video.
 * `<URL> </URL>`: Surround the URL of the video.
-* `<TIMESTAMP> </TIMESTAMP>`: Surround the date the video was published.
+* `<TIMESTAMP> </TIMESTAMP>`: Surround the ISO 8601 date the video was published.
 * `<DESCRIPTION> </DESCRIPTION>`: Surround the description of the video.
 * `<TAGS> </TAGS>`: Surround an array consisting of the video tags.
 * (Optionnal) `<COMMENT number> </COMMENT number>`: Surround a comment from the comment section of the video. If the query for the comment threads returns an error (such as when comments are disabled), this section is skipped.
