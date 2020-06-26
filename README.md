@@ -4,7 +4,7 @@ COVID-19-related datasets made querying OVPs (for the time being: YouTube), acco
 ## Regarding the Shared YouTube Dataset
 It is based on the result of a “covid-19” query using [YouTube API](https://developers.google.com/youtube/v3/getting-started).
 
-Because of the low API quota (10 000) available for free, the text file only contains 360 entries (but is free of duplicates, which are filtered out by the script). Thus, it serves more as an example or sample of what you can get with the script than a comprehensive and operable dataset.
+Because of the low API quota (10 000) available for free, the text file only contains 360 entries (free of duplicates, which are filtered out by the script). Thus, it serves more as an example or sample of what you can get with the script than a comprehensive and operable dataset.
 
 Feel free to improve the script as you want.
 
