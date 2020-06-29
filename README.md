@@ -1,16 +1,15 @@
 # COVID-19_Datasets_OnlineVideos
 COVID-19-related datasets made querying OVPs (YouTube and Vimeo), accompanied by the Python scripts used.
 
+## Regarding the Shared Vimeo Dataset
+It has been made using [Vimeo API](https://developer.vimeo.com/api/reference) and contains data on *all* videos which are returned by a “covid‐19” query and were uploaded before June 26, 2020 (93 896 entries, without duplicates).
+
 ## Regarding the Shared YouTube Dataset
 It is based on the result of a “covid‐19” query using [YouTube API](https://developers.google.com/youtube/v3/getting-started).
 
 Because of the low API quota (10 000) available for free, the text file only contains 360 entries (free of duplicates, which are filtered out by the script). Thus, it serves more as an example or sample of what you can get with the script than a comprehensive and operable dataset.
 
 Feel free to improve the script as you want.
-
-## Regarding the Shared Vimeo Dataset
-It has been made using [Vimeo API](https://developer.vimeo.com/api/reference) and contains data on *all* videos which are returned by a “covid‐19” query and were uploaded before June 26, 2020 (93 896 entries, without duplicates).
-
 
 ## Dataset Formatting
 Here are the tags used to surround the collected data:
