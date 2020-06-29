@@ -19,7 +19,7 @@ Here are the tags used to surround the collected data:
 * `<URL> </URL>`: Surround the URL of the video.
 * `<TIMESTAMP> </TIMESTAMP>`: Surround the ISO 8601 date the video was published.
 * `<DESCRIPTION> </DESCRIPTION>`: Surround the description of the video.
-* `<TAGS> </TAGS>`: For **YouTube**: Surround an array consisting of the video tags. For **Vimeo**: Surround spaced tags, each of them beginning with an `#`.
+* `<TAGS> </TAGS>`: For **YouTube**: Surround an array consisting of the video tags. For **Vimeo**: Surround spaced tags, each of them beginning with a hashtag.
 * (Optionnal) `<COMMENT number> </COMMENT number>`: Surround a comment from the comment section of the video. If the query for the comment threads returns an error (such as when comments are disabled), this section is skipped. As regards **YouTube**, 20 (top‐level) comments at most are obtained; as regards **Vimeo**, it’s 100 (top-level too) comments.
 * `<CHANNEL TITLE> </CHANNEL TITLE>`: Surround the name of the channel to which the video is attached to.
 * `<CHANNEL URL> </CHANNEL URL>`: Surround the URL of the channel to which the video is attached to.
