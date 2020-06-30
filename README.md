@@ -4,7 +4,7 @@ COVID-19-related datasets made querying OVPs (YouTube and Vimeo), accompanied by
 ## Regarding the Shared Vimeo Dataset
 It has been made using [Vimeo API](https://developer.vimeo.com/api/reference) and contains data on *all* videos which are returned by a “covid‐19” query and were uploaded before June 26, 2020 (93 896 entries, without duplicates). 
 
-Because it was too big for GitHub, what’s in the repository is a text file which holds a [download link](https://mega.nz/file/bFID3QCB#iZ2XN2fj2pijqzPMNOrF_g0gfvg96aCsP9PLuP_cQW8) for the dataset.
+Because it was too big for GitHub, what’s in the repository is a text file which holds [a download link](https://mega.nz/file/bFID3QCB#iZ2XN2fj2pijqzPMNOrF_g0gfvg96aCsP9PLuP_cQW8) for the dataset.
 
 ## Regarding the Shared YouTube Dataset
 It is based on the result of a “covid‐19” query using [YouTube API](https://developers.google.com/youtube/v3/getting-started).
